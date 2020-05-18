@@ -23,13 +23,6 @@ module.exports = {
         icon: `src/images/wizard.png`
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-26978781-2",
-        head: false
-      }
-    },
     `gatsby-plugin-offline`
   ]
 };

@@ -29,7 +29,7 @@ const Start = ({ data }) => {
                 Click a presentation to begin.
               </h4>
             </div>
-            {nodes.map(item => {
+            {nodes.map((item) => {
               const { title, path, desc, location } = item.frontmatter;
               return (
                 <div className="col-xs-12 col-md-6 col-lg-4 pad-10-l pad-10-r">
